@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<html lang="pl">
+<center><h2>POCZTA</h2></center><br>
+<body bgcolor="#EAEAAE">
+<form action=pierwszy.php>
+Wyswietl relacje by zorientowac sie jak ona wyglada <input type="text" name="r"/> <br>
+<i>Mozliwe do wyboru: { film }</i>
+<br>
+</form>
+<hr>
+<form action=funkcja_pierwsza.php>
+Wyswietlenie danych listonosza odpowiedzialnego za dostarczenie listu <input type="text"
+name="s"/>.
+<br> <i> Wpisujemy id_filmu Np.1, 2, 3 </i>
+<br>
+</form>
+<hr>
+<form action=funkcja_druga.php>
+Sprawdzenie czy uiszczona jest oplata konkretnego listu <input type="text" name="s"/>.
+<br> <i> Przyklady: { AH-43212,AH-54411,AH-54412 } </i>
+<br>
+</form>
+<hr>
+<form action=wyzwalacz_pierwszy.php>
+Proba wstawienia ceny, roznej od tej w cenniku <input type="text" name="r"/> .
+<br> <i> Przyklad: list polecony, ktory nie bedzie kosztowac 5 pln, lecz 17 </i>
+<br>
+</form>
+<hr>
+<form action=wyzwalacz_drugi.php>
+Proba wprowadzenia do bazy jakiegos listu o pewnej wadze (ustalilismy ze listow nie wazymy -
+gdy cos wazy to staje sie paczka) <input type="text" name="r"/>.
+<br> <i> Przyklad: Chcemy wstawic do bazy list o pewnej wadze. W tym celu jako rodzaj naszej
+kilogramowej wysylki wpiszemy list_zwykly zamiast paczki. </i>
+<br>
+</form>
+<hr>
+<form action=wyzwalacz_trzeci.php>
+Proba wprowadzenia do bazy jakiegos listu, na ktorym widnieje ulica, ktorej nie ma w Olawie
+<input type="text" name="r"/>.
+<br> <i> Przyklad: Orzechowa, Babska </i>
+<br>
+</form>
+<hr>
+</body>
+</html>
