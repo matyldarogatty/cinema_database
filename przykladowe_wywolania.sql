@@ -1,6 +1,3 @@
---    psql -h studentka -p 7654 -d bazy_danych
--- shift insert   -> ohf8eYae 
--- \i '~/Pobrane/funkcje.sql' 
 
 
 
